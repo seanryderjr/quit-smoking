@@ -1,9 +1,16 @@
+body {
+    background-color: #f2f2f2;
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+
 .container {
 	margin: 50px auto;
 	width: 50%;
 	text-align: center;
     border: 1px solid #ccc;
     border-radius: 20px;
+    box-shadow: #6d7274 0px 0px 10px;
+    background-color: rgb(207, 207, 180);
 }
 
 h1 {
@@ -30,9 +37,10 @@ button {
 	background-color: #008CBA;
 	color: #fff;
 	cursor: pointer;
+    border-radius: 15px;
 }
 
-#result {
+.container div {
 	margin-top: 50px;
 	font-size: 24px;
 	font-weight: bold;
